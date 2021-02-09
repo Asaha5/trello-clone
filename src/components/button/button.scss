@@ -1,0 +1,30 @@
+.trello-clone-button {
+  button {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    min-width: 100px;
+
+    &.success {
+      background-color: #578cee;
+      color: #eeeeee;
+    }
+
+    &.info {
+      background-color: #268578;
+      color: #eeeeee;
+    }
+
+    &:disabled {
+      background-color: #cccccc;
+    }
+  }
+}

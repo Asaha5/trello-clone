@@ -1,0 +1,39 @@
+.trello-clone-list-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  background: rgb(198, 209, 209);
+  background: linear-gradient(
+    0deg,
+    rgba(198, 209, 209, 1) 0%,
+    rgba(189, 190, 181, 1) 100%
+  );
+  border-radius: 2px;
+
+  & .list-header {
+    color: #172b4d;
+  }
+
+  & .actions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2px;
+
+    .actions {
+      display: flex;
+      justify-content: flex-start;
+      padding: 1px;
+    }
+  }
+
+  & .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2px;
+  }
+}

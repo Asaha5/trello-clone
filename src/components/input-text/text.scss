@@ -1,0 +1,14 @@
+.trello-clone-text-container {
+  padding: 0.8rem;
+
+  .trello-clone-text-input {
+    background-color: #fff;
+    display: block;
+    margin: 0;
+    transition: margin 85ms ease-in, background 85ms ease-in;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #0079bf;
+  }
+}

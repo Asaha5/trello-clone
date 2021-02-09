@@ -1,0 +1,51 @@
+.trello-clone-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 0.2rem;
+
+  .actions-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .title-container {
+    font-size: large;
+    font-weight: bold;
+
+    .title {
+      clear: both;
+      display: block;
+      margin: 0 0 4px;
+      overflow: hidden;
+      text-decoration: none;
+      word-wrap: break-word;
+      color: #172b4d;
+    }
+  }
+
+  .description-container {
+    font-size: medium;
+    padding: 10px;
+
+    .description {
+      clear: both;
+      display: block;
+      margin: 0 0 4px;
+      overflow: auto;
+      text-decoration: none;
+      word-wrap: break-word;
+      color: #172b4d;
+      font-weight: 700;
+      font-size: larger;
+    }
+  }
+}
