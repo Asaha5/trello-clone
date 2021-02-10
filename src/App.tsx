@@ -64,6 +64,7 @@ function App() {
           {isListBeingAdded && (
             <TextInput
               type="text"
+              role="textbox"
               onChange={({ target: { value } }) => {
                 setListLabel(value);
               }}
